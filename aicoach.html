@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="aicoach.css">
+</head>
+<body>
+    <div class="navbar">
+        <button class="back-button" onclick="location.href='dashboard.html'">&#8592; Back</button>
+        <button class="logout-button" onclick="location.href='login.html'">Logout</button>
+    <div class="chat-container">
+        <div class="chat-header">AI Coach</div>
+        <div class="chat-box" id="chatBox">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="chat-input-container">
+            <input type="text" id="chatInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</body>
+</html>

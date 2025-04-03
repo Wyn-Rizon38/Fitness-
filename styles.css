@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: url('https://source.unsplash.com/400x800/?forest') no-repeat center center/cover;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    background: black;
+    color: white;
+    width: 90%;
+    max-width: 350px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+.logo img {
+    width: 40px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.input-box {
+    background: #555;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-box input {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+}
+.input-box input::placeholder {
+    color: #ccc;
+}
+.login-btn {
+    background: #c4ff4d;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signup {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.signup a {
+    color: #c4ff4d;
+    text-decoration: none;
+    font-weight: bold;
+}

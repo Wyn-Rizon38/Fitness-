@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+
+.back-button, .logout-button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button {
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 100px;
+    margin: auto;
+}
+
+.muscle-group {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.muscle-group img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.muscle-group p {
+    font-size: 18px;
+    margin-top: 10px;
+}
